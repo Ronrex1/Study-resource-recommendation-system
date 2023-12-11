@@ -1,16 +1,16 @@
 # Course-Recommendation-System
-The provided code is a course recommendation system implemented using Streamlit, a Python framework for building interactive web applications. The system allows users to select courses they have audited or completed and provides personalized recommendations based on different recommendation models.
+The supplied code constitutes a course recommendation system crafted with Streamlit, a Python framework designed for constructing interactive web applications. This system empowers users to choose courses they have audited or completed and delivers personalized recommendations grounded in distinct recommendation models.
 
-The code consists of several functions and components:
+The code encompasses various functions and elements:
 
-1. Data Loading: The system loads various datasets such as ratings, course similarities, user profiles, course genre information, and bag-of-words representation of courses.
+Loading Data: The system imports diverse datasets, encompassing ratings, course similarities, user profiles, course genre information, and the bag-of-words representation of courses.
 
-2. App Initialization: The init__recommender_app() function initializes the recommender app by loading the datasets and allowing users to select courses they have audited or completed using an interactive table.
+Initializing the App: The __init__recommender_app() function kick-starts the recommender app by loading datasets and enabling users to select courses they have audited or completed through an interactive table.
 
-3. Training: The system supports training different recommendation models. Currently, it includes the "Course Similarity," "User Profile," and "Clustering" models. The train() function is responsible for training the selected model with the specified hyperparameters.
+Training: The system supports the training of diverse recommendation models. Currently, it includes models such as "Course Similarity," "User Profile," and "Clustering." The train() function takes charge of training the chosen model with the specified hyperparameters.
 
-4. Prediction: Once the model is trained, the system generates course recommendations based on the selected model and user inputs. The predict() function takes the model name, user IDs, and additional parameters as input and returns the recommended courses.
+Prediction: Once the model undergoes training, the system generates course recommendations based on the chosen model and user inputs. The predict() function takes the model name, user IDs, and additional parameters as input and yields the recommended courses.
 
-5. User Interface: The system's user interface is built using Streamlit. It includes a sidebar that allows users to select the recommendation model, tune hyperparameters, train the model, and generate course recommendations. The selected courses, model parameters, and recommendations are displayed in the main content area.
+User Interface: The system's user interface is constructed using Streamlit, featuring a sidebar allowing users to select the recommendation model, fine-tune hyperparameters, train the model, and generate course recommendations. The chosen courses, model parameters, and recommendations are showcased in the primary content area.
 
-The code provides a basic implementation of the course recommendation system and can be extended with additional models and functionalities. It demonstrates the integration of Streamlit for building interactive web applications and the usage of different recommendation techniques such as course similarity, user profiling, and clustering.
+The code furnishes a rudimentary implementation of the course recommendation system and offers the flexibility to expand with additional models and functionalities. It underscores the integration of Streamlit for constructing interactive web applications and the application of diverse recommendation techniques, such as course similarity, user profiling, and clustering.
